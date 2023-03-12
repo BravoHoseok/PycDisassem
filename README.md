@@ -1,5 +1,5 @@
-Pyc Disassem proejct
-===============
+Pyc Assembler/Disassembler proejct
+==================================
 This document explains the methodology of Pyc Disassem in order to prevent from attackers inject malicious corner case instruction sequences.
 
 <!-- npm i -g markdown-toc; markdown-toc -i ota_app_system_document.md -->
