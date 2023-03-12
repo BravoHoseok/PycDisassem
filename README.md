@@ -47,7 +47,7 @@ In this section, I will explain what I understand while performing the project. 
 Figure 4 presents the detailed ‘pyc’ file format. Each object has their own frame and a corresponding identifier (red color). For example, 0x63 means the start point of ‘Metadata’ and 0x73 means the start point of code object (co_code). The blue color represents the size of data included in their own frame, and the yellow color means opcode data. Each opcode can be interpreted by opcode table [10]. For example, 0x64 means LOAD_CONST and 0x84 means MAKE_FUNCTION.
 
 <p align="center">
-<img src="./img/Figure%204.png"><br>
+<img src="./img/Figure%204.png" height="300"><br>
 <strong>Figure 4</strong>
 <p>
 
@@ -97,13 +97,22 @@ For about 2 months, I did set up the development environment, understand the pyc
 
 ## Reference
 [1] PEWNY, J., GARMANY, B., GAWLIK, R., ROSSOW, C., AND HOLZ, T. Cross-Architecture Bug Search in Binary Executables. In Proceedings of the 36th IEEE Symposium on Security and Privacy (S&P’15) (2015).
+
 [2] Andriesse, Dennis, et al. "An in-depth analysis of disassembly on full-scale x86/x64 binaries." 25th {USENIX} Security Symposium ({USENIX} Security 16). 2016.
+
 [3] BALAKRISHNAN, G., AND REPS, T. WYSINWYX: What You See is Not What You eXecute. ACM Transactions on Programming Languages and Systems 32, 6 (Aug. 2010), 23:1–23:84.
+
 [4] MILLER, B. P., AND MENG, X. Binary Code is Not Easy, 2015. Technical report, University of Wisconsin-Madison.
+
 [5] PALEARI, R., MARTIGNONI, L., FRESI ROGLIA, G., AND BRUSCHI, D. N-Version Disassembly: Differential Testing of x86 Disassemblers. In Proceedings of the 19th International Symposium on Software Testing and Analysis (2010), ISSTA’10.
+
 [6] https://github.com/rocky/python-xasm
+
 [7] https://github.com/rocky/python-xdis
+
 [8] https://github.com/rocky/python-uncompyle6
+
 [9] https://towardsdatascience.com/understanding-python-bytecode-e7edaae8734d
+
 [10] http://unpyc.sourceforge.net/Opcodes.html
 
