@@ -47,7 +47,7 @@ In this section, I will explain what I understand while performing the project. 
 Figure 4 presents the detailed ‘pyc’ file format. Each object has their own frame and a corresponding identifier (red color). For example, 0x63 means the start point of ‘Metadata’ and 0x73 means the start point of code object (co_code). The blue color represents the size of data included in their own frame, and the yellow color means opcode data. Each opcode can be interpreted by opcode table [10]. For example, 0x64 means LOAD_CONST and 0x84 means MAKE_FUNCTION.
 
 <p align="center">
-<img src="./img/Figure%204.png" height="500"><br>
+<img src="./img/Figure%204.png" height="350"><br>
 <strong>Figure 4</strong>
 <p>
 
